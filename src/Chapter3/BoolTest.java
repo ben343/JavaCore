@@ -1,4 +1,4 @@
-package Chapter2;
+package Chapter3;
 
 public class BoolTest {
     public static void main(String[] args) {
