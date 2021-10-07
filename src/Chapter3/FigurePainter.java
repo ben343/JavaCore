@@ -27,9 +27,45 @@ public class FigurePainter {
             for (int c = i; c > 0; c--) {
                 System.out.print("* ");
             }
+            //Տնային աշխատանք 4
             System.out.println();
         }
+        System.out.println();
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("  ");
+            }
+            for (int j = 4; j > i; j--) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        //Տնային ԴԺՎԱՐ աշխատանք 5
+        System.out.println();
+        for (int i = 0; i < 4; i++) {
+            for (int j = 4; j > i; j--) {
+                System.out.print(" ");
 
+            }
+            for (int k = 0; k <= i; k++) {
+                System.out.print("* ");
+
+            }
+            System.out.println();
+
+        }
+        for (int i = 0; i<3; i++) {
+            for (int j = 0; j <=i; j++) {
+                System.out.print(" ");
+
+            }
+            for (int j = 3; j>i ; j--) {
+                System.out.print(" *");
+
+            }
+            System.out.println();
+
+        }
     }
 
 }
